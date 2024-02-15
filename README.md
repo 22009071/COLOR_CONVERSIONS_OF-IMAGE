@@ -11,7 +11,7 @@ Split and merge HSV Image
 ```
 import cv2
 import matplotlib.pyplot as plt
-img=cv2.imread("duck.jpeg",1)
+img=cv2.imread("tomandjerry.jpg",1)
 cv2.imshow("display window",img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
@@ -19,7 +19,8 @@ print(img.shape)
 ```
 
 ## output:
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/909323c5-5439-4e7a-a48a-d8f7b220394e)
+<img width="544" alt="Screenshot 2024-02-15 190636" src="https://github.com/22009071/COLOR_CONVERSIONS_OF-IMAGE/assets/120206067/f2e0b473-c41d-4158-b71b-a15352e70001">
+
 
 ### ii)Write the image
 ```
@@ -36,11 +37,13 @@ cv2.imwrite('greyscale.jpeg',img1)
 ### iii)Shape of the Image
 ```
 import cv2
-img1=cv2.imread("duck.jpeg",1)
+img1=cv2.imread("tomandjerry.jpg",1)
 print(img1.shape)
 ```
 ## output:
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/65c5df6b-6164-43f2-b543-4ce62114e623)
+<img width="474" alt="Screenshot 2024-02-15 191844" src="https://github.com/22009071/COLOR_CONVERSIONS_OF-IMAGE/assets/120206067/91cef9c7-2c85-4398-930c-5b8400189773">
+
+
 
 ### iv)Access rows and columns
 ```
@@ -59,7 +62,8 @@ cv2.destroyAllWindows()
 ```
 
 ## output:
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/c454eccd-8cd4-45c2-b20f-082fb57c250c)
+<img width="543" alt="Screenshot 2024-02-15 192022" src="https://github.com/22009071/COLOR_CONVERSIONS_OF-IMAGE/assets/120206067/2727909d-ea19-48fe-bb33-8a71e9b0ed0c">
+
 
 
 ### v)Cut and paste portion of image
@@ -80,9 +84,11 @@ cv2.destroyAllWindows()
 ```
 
 ## output:
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/c2e35f23-58b2-4b9f-8bbe-46cc87e09587)
+<img width="545" alt="Screenshot 2024-02-15 192405" src="https://github.com/22009071/COLOR_CONVERSIONS_OF-IMAGE/assets/120206067/94e8a5bb-b265-49cd-90a9-6cecb435a323">
 
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/1f5faec3-f032-4570-b44f-68581014b796)
+
+<img width="190" alt="Screenshot 2024-02-15 192338" src="https://github.com/22009071/COLOR_CONVERSIONS_OF-IMAGE/assets/120206067/ce18dc64-d586-49d7-8b37-bdf16652f721">
+
 
 
 ### vi) BGR and RGB to HSV and GRAY
@@ -103,10 +109,10 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 ## output:
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/96279901-b446-4957-b4ee-a1387040a916)
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/55400087-2b69-4826-89a5-624819110457)
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/8441996a-3158-4ac5-8387-d74d0bc26c30)
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/15df8073-c891-4d29-8bfa-8b1f4e47ecc6)
+<img width="901" alt="Screenshot 2024-02-15 192809" src="https://github.com/22009071/COLOR_CONVERSIONS_OF-IMAGE/assets/120206067/cf8e7c71-5fed-4844-9cae-9257a8a9eb98">
+<img width="227" alt="Screenshot 2024-02-15 192835" src="https://github.com/22009071/COLOR_CONVERSIONS_OF-IMAGE/assets/120206067/942fb37a-81e8-499b-8e05-1b98ccf5b7f6">
+
+
 
 
 ### vii) HSV to RGB and BGR
@@ -125,9 +131,8 @@ cv2.destroyAllWindows()
 ```
 
 ## output:
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/a9ac8927-51f3-47c8-8d09-44950e2e224c)
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/a99f5b80-1d15-4ab2-80a6-08d3a6345d83)
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/f962895c-18f9-4b14-ae8c-06a360dcbefd)
+<img width="679" alt="Screenshot 2024-02-15 193119" src="https://github.com/22009071/COLOR_CONVERSIONS_OF-IMAGE/assets/120206067/2bb47042-6de0-4a84-8f4e-c8573471881a">
+
 
 
 
@@ -147,9 +152,8 @@ cv2.destroyAllWindows()
 ```
 
 ## output:
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/2aca872e-afbf-4382-9b0d-09ae55d5619f)
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/83580444-a0f8-4c29-8536-d3c27aab3ab9)
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/19d211d0-a54a-4690-af54-1163a88fc829)
+<img width="680" alt="Screenshot 2024-02-15 193309" src="https://github.com/22009071/COLOR_CONVERSIONS_OF-IMAGE/assets/120206067/23a99d92-6759-45ce-bb9b-b8fd3014fd96">
+
 
 
 ### ix) Split and merge RGB Image
@@ -170,10 +174,8 @@ cv2.destroyAllWindows()
 ```
 
 ## output:
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/d741d43c-de15-4ce2-82f8-83151d120985)
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/a0d74b65-2029-4027-8bfc-452f9874a67a)
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/a213b6bc-33d2-4a54-b943-21ba72e9fcb9)
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/a25ee8ab-8e48-4d74-97f5-b0525dc4801a)
+<img width="451" alt="Screenshot 2024-02-15 193641" src="https://github.com/22009071/COLOR_CONVERSIONS_OF-IMAGE/assets/120206067/5d3f30b7-bf0e-4e56-93a9-0b6f26eb1350">
+
 
 
 
@@ -194,8 +196,6 @@ cv2.destroyAllWindows()
 ```
 
 ## output:
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/3da85971-a88b-4c7d-b389-24e2b5244d76)
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/97631364-9311-4d80-b116-35421f9dca1d)
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/26f51a2d-f37c-4889-9222-2849e2fe6daa)
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/2f3a5c19-0306-4ada-a63b-c810bb53e5f3)
+<img width="440" alt="Screenshot 2024-02-15 193838" src="https://github.com/22009071/COLOR_CONVERSIONS_OF-IMAGE/assets/120206067/67a608ec-a790-41a5-9c1d-4375243062e2">
+
 
