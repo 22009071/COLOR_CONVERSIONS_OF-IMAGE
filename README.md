@@ -31,7 +31,8 @@ cv2.destroyAllWindows()
 cv2.imwrite('greyscale.jpeg',img1)
 ```
 ## output:
-![image](https://github.com/Ragu-123/COLOR_CONVERSIONS_OF-IMAGE/assets/113915622/df0765c6-234b-4901-9424-05c8b66dd695)
+<img width="540" alt="Screenshot 2024-02-15 190857" src="https://github.com/22009071/COLOR_CONVERSIONS_OF-IMAGE/assets/120206067/d7c4adf8-c857-4157-a477-5c880142a2c8">
+
 
 
 ### iii)Shape of the Image
